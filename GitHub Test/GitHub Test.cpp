@@ -5,8 +5,8 @@
 
 int main()
 {
-    //std::cout << "Hello World!\n";
-    std::cout << "Test phrase";
+    std::cout << "Hello World!\n";
+    // std::cout << "Test phrase";
     system("pause");
     return 0;
 }
