@@ -3,10 +3,21 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
-{
-    std::cout << "Hello World!\n";
-    // std::cout << "Test phrase";
+{ 
+    double x;
+    double z;
+
+    cout << "Hello World!\n";
+    // cout << "Test phrase";
+    
+    cout << "x = "; cin >> x;
+
+    z = x + 2; 
+    cout << "z = " << z << endl;
+     
     system("pause");
     return 0;
 }
